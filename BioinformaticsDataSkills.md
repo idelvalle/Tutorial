@@ -440,6 +440,33 @@ Hi idelvalle! You've successfully authenticated, but GitHub does not provide she
 
 ## Connect RStudio to Git and GitHub
 
+1. In RStudio, **start a new Project**:
+
+- *File > New Project > Version Control > Git*. In the `repository URL` paste the URL of your new GitHub repository.
+- Notice the local directory for the project
+- Check `Open in new session`
+- Click `Create Project`
+
+2. After making any changes we should **save and commit them**:
+
+   From RStudio:
+
+   Click the `Git` tab in upper right pane.
+
+   Check `Staged` box for  the modified file.
+
+   Click `Commit`.
+
+   Type a message in `Commit message`.
+
+   Click `Commit`.
+
+3. **Push** local changes to GitHub:
+
+   Click the green “Push” button to send your local changes to GitHub.
+
+4. **Confirm** local changes refresshing the browser.
+
 
 
 
